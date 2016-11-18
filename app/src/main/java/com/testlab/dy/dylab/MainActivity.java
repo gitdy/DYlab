@@ -20,7 +20,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
 //public class MainActivity extends Activity {
     ListView mLv;
-    ListView lv2
+    ListView lv2;
     MainListAdapter mAdapter;
     List<String> mList;
 
