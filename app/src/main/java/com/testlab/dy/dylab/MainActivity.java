@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         mList=new ArrayList<String>();
         //添加item
         mList.add("RecycleViewTest");
+        mList.add("addContact添加联系人");
 
 
 
@@ -44,6 +45,9 @@ public class MainActivity extends AppCompatActivity {
                 switch (i) {
                     case 0:
                         MainActivity.this.startActivity(new Intent(MainActivity.this,RecycleTest1Activity.class));
+                   break;
+                    case 1:
+                        MainActivity.this.startActivity(new Intent(MainActivity.this,AddContactActivity.class));
                     break;
                 }
             }
